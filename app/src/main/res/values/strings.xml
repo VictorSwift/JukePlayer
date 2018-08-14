@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">JukePlayer</string>
+
+    <string name="title_music">ALL SONGS</string>
+    <string name="title_album">ALBUM</string>
+    <string name="title_settings">SETTINGS</string>
+    <!--hold informatio for the settings list-->
+    <string name="settings_equalizer">Equalizer</string>
+    <string name="settings_notifications">Notifications</string>
+    <string name="settings_headset">Headset Control</string>
+    <string name="settings_theme">Theme</string>
+    <string name="settings_lyrics">Lyrics</string>
+
+    <!--Rendezvous by MI Abaga-->
+    <string name="album_rendezvous">Rendezvous</string>
+    <string name="artist_mi_abaga">M.I Abaga</string>
+    <string name="your_father">Your Father (feat. Dice Ailes)</string>
+    <string name="on_code">On Code(feat. AKA)</string>
+
+    <!--High Start by Yung6ix-->
+    <string name="album_high_star">High Star</string>
+    <string name="artist_young_6ix">Yung 6ix</string>
+    <string name="music_beautiful_scars">Beautiful Scars</string>
+    <string name="music_stay_woke">Stay woke (feat. Dremo)</string>
+
+    <!--Sounds From The Other Side by WizKid-->
+    <string name="album_sftos">Sounds From The Other Side</string>
+    <string name="artist_wizkid">WizKid</string>
+    <string name="music_sweet_love">Sweet Love</string>
+
+    <!--Odysseus  by Jesse Jagz-->
+    <string name="album_odysseus">Odysseus</string>
+    <string name="artist_jesse_jagz">Jesse Jagz</string>
+    <string name="music_rude_boys">Rude Boys</string>
+    <string name="music_awake">Awake</string>
+
+    <!--Erriga A trip to the South-->
+    <string name="album_trip_to_the_south">Trip To The South</string>
+    <string name="artist_erriga">Alan Walker</string>
+    <string name="music_biggie_man">Biggie Man</string>
+    <string name="music_spoil_everywhere">Spoil Everywhere</string>
+
+    <!--27 By Falz-->
+    <string name="album_27">Twenty Seven</string>
+    <string name="artist_falz">Falz</string>
+    <string name="music_the_way">Way (feat. Wande Coal)</string>
+    <string name="music_confirm">Confirm (feat. Sir Dauda)</string>
+
+    <!--Niniola This Is Me Album-->
+    <string name="album_this_is_me">This Is Me</string>
+    <string name="artist_niniola">Niniola</string>
+    <string name="music_maradona">Maradona</string>
+    <string name="music_sicker">Sicker</string>
+
+    <!--Yung L Btter Late Than Never-->
+    <string name="album_Better_Late_Than_Never">Better Late Than Never</string>
+    <string name="artist_yungl">Yung L</string>
+    <string name="music_where_you_dey">Where You Dey</string>
+    <string name="music_anya">Anya</string>
+</resources>

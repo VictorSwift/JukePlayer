@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".NowPlayingActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark"
+        app:layout_scrollFlags="scroll|enterAlways"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Dark" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/np_padding_bottom"
+        tools:context=".MainActivity">
+
+        <TextView
+            android:id="@+id/now_playing_music_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/np_text_view_1_margin_top"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textStyle="bold"
+            tools:text="Placeholder Text" />
+
+        <ImageView
+            android:id="@+id/now_playing_music_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/np_image_view_margin_top"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            tools:ignore="contentDescription"
+            tools:src="@drawable/high_star" />
+
+        <TextView
+            android:id="@+id/now_playing_music_artist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/np_text_view_2_margin_top"
+            android:gravity="center_horizontal"
+            android:textAppearance="?android:textAppearanceMedium"
+            tools:text="PlaceHolder area" />
+
+        <TextView
+            android:id="@+id/now_playing_music_album"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/np_text_view_3_margin_top"
+            android:gravity="center_horizontal"
+            android:textAppearance="?android:textAppearanceLarge"
+            tools:text="Placeholder Text" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/np_margin_top">
+
+            <ImageView
+                android:id="@+id/btn_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/np_image_view_margin_end"
+                android:layout_marginRight="@dimen/np_image_view_margin_end"
+                android:src="@drawable/btn_back"
+                tools:ignore="contentDescription" />
+
+            <ImageView
+                android:id="@+id/btn_play"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/btn_play"
+                tools:ignore="contentDescription" />
+
+            <ImageView
+                android:id="@+id/btn_forward"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/np_image_view_margin_end"
+                android:layout_marginStart="@dimen/np_image_view_margin_start"
+                android:src="@drawable/btn_forward"
+                tools:ignore="contentDescription" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

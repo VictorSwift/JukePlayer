@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--activity_albums_list_item.xml dimensions-->
+    <dimen name="imv_album_image_width">88dp</dimen>
+    <dimen name="imv_album_image_height">88dp</dimen>
+    <dimen name="imv_album_image_padding">8dp</dimen>
+    <dimen name="ll_album_list_item_padding_start_end">6dp</dimen>
+
+    <!--activity_now_playing.xml. np stands for now playing-->
+    <dimen name="np_text_view_2_margin_top">16dp</dimen>
+    <dimen name="np_text_view_3_margin_top">16dp</dimen>
+    <dimen name="np_image_view_margin_start">16dp</dimen>
+    <dimen name="np_padding_bottom">16dp</dimen>
+    <dimen name="np_image_view_margin_top">24dp</dimen>
+    <dimen name="np_margin_top">48dp</dimen>
+    <dimen name="np_image_view_margin_end">16dp</dimen>
+    <dimen name="np_text_view_1_margin_top">32dp</dimen>
+
+    <!--activity_music_list_item.xml dimensions-->
+    <dimen name="imv_music_image_width">88dp</dimen>
+    <dimen name="imv_music_image_height">88dp</dimen>
+    <dimen name="imv_music_image_padding">8dp</dimen>
+    <dimen name="imv_music_padding_start_end">8dp</dimen>
+
+    <!--activity_album_playlist.xml dimensions. pl stands for playlist-->
+    <dimen name="pl_margin_top">8dp</dimen>
+
+    <!--activity_settings.xml-->
+    <dimen name="tv_settings_margin_top">20dp</dimen>
+    <dimen name="tv_settings_margin_bottom">20dp</dimen>
+    <dimen name="cv_layout_margin">5dp</dimen>
+    <dimen name="cv_elevation">10dp</dimen>
+
+    <dimen name="tv_album_name_height">0dp</dimen>
+    <dimen name="tv_album_name_margin_left">84dp</dimen>
+    <dimen name="tv_album_name_margin_top">20dp</dimen>
+    <dimen name="tv_album_no_of_tracks_height">0dp</dimen>
+    <dimen name="album_no_of_tracks_margin_left">84dp</dimen>
+    <dimen name="album_playlist_btn_margin_top">8dp</dimen>
+    <dimen name="cardview_album_playlist_elevation">40dp</dimen>
+    <dimen name="cardview_music_list_item_card_elevation">10dp</dimen>
+    <dimen name="tv_settings_margin_left">4dp</dimen>
+    <dimen name="tv_settings_margin_right">4dp</dimen>
+    <dimen name="ll_settings_padding_left">20dp</dimen>
+    <dimen name="ll_settings_padding_right">20dp</dimen>
+
+
+</resources>

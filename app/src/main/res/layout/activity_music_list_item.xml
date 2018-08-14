@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/song_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/cv_layout_margin"
+        android:elevation="@dimen/cardview_music_list_item_card_elevation">
+
+        <ImageView
+            android:id="@+id/music_image"
+            android:layout_width="@dimen/imv_music_image_width"
+            android:layout_height="@dimen/imv_music_image_height"
+            android:padding="@dimen/imv_music_image_padding"
+            android:scaleType="centerCrop"
+            tools:ignore="ContentDescription"
+            tools:src="@drawable/sftos" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingEnd="@dimen/imv_music_padding_start_end"
+            android:paddingStart="@dimen/imv_music_padding_start_end">
+
+            <TextView
+                android:id="@+id/music_name"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/tv_album_no_of_tracks_height"
+                android:layout_marginLeft="@dimen/album_no_of_tracks_margin_left"
+                android:layout_marginTop="@dimen/tv_album_name_margin_top"
+                android:layout_weight="1"
+                android:gravity="bottom"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="@android:color/black"
+                tools:text="PlaceHolder Text" />
+
+            <TextView
+                android:id="@+id/music_artist"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/tv_album_no_of_tracks_height"
+                android:layout_marginLeft="@dimen/album_no_of_tracks_margin_left"
+                android:layout_weight="1"
+                android:gravity="top"
+                android:textAppearance="?android:textAppearanceSmall"
+                tools:text="Placeholder Text" />
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

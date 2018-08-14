@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/cv_layout_margin"
+        android:elevation="@dimen/cv_elevation">
+
+        <ImageView
+            android:id="@+id/album_image"
+            android:layout_width="@dimen/imv_album_image_width"
+            android:layout_height="@dimen/imv_album_image_height"
+            android:padding="@dimen/imv_album_image_padding"
+            android:scaleType="centerCrop"
+            tools:ignore="ContentDescription"
+            tools:src="@drawable/sftos" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingEnd="@dimen/ll_album_list_item_padding_start_end"
+            android:paddingStart="@dimen/ll_album_list_item_padding_start_end">
+
+            <TextView
+                android:id="@+id/album_name"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/tv_album_name_height"
+                android:layout_marginLeft="@dimen/tv_album_name_margin_left"
+                android:layout_marginTop="@dimen/tv_album_name_margin_top"
+                android:layout_weight="1"
+                android:gravity="bottom"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="@android:color/black"
+                tools:text="Placeholder" />
+
+            <TextView
+                android:id="@+id/album_no_of_tracks"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/tv_album_no_of_tracks_height"
+                android:layout_marginLeft="@dimen/album_no_of_tracks_margin_left"
+                android:layout_weight="1"
+                android:gravity="top"
+                android:textAppearance="?android:textAppearanceSmall"
+                tools:text="1 song" />
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>
